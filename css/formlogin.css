@@ -43,7 +43,9 @@ button {
     text-align: center;
     margin: 24px 0 12px 0;
 }
-
+.container {
+    padding: 16px;
+}
 /* Avatar image */
 img.avatar {
     width: 40%;
@@ -51,9 +53,7 @@ img.avatar {
 }
 
 /* Add padding to containers */
-.container {
-    padding: 16px;
-}
+
 
 /* The "Forgot password" text */
 span.psw {
