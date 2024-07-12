@@ -569,11 +569,18 @@ a {
         margin-top: 54px; } }
     .footer-section .links-wrap ul li {
       margin-bottom: 10px; }
-  .footer-section .footer-logo-wrap .footer-logo {
+.footer-logo-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section .footer-logo-wrap .footer-logo {
     font-size: 32px;
     font-weight: 500;
     text-decoration: none;
-    color: #3b5d50; }
+    text-align: justify;
+    color: #3b5d50;
+}
   .footer-section .custom-social li {
     margin: 2px;
     display: inline-block; }
@@ -683,3 +690,7 @@ textarea {
     height: 50px;
     border-radius: 50%;
     background: rgba(59, 93, 80, 0.2); }
+
+  .list-unstyled{
+      font-size: 16px;
+  }
